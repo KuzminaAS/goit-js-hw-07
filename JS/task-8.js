@@ -51,7 +51,7 @@ function random() {
 btnDestroy.addEventListener('click', destroyBoxes);
 
 function destroyBoxes() { 
-
+    input.value = '';
     divBoxes.innerHTML = '';
 }
 
