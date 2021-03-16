@@ -1,6 +1,6 @@
 /*task-3*/
 
-/* body {
+body {
   margin: 0;
 }
 .container {
@@ -36,7 +36,7 @@ h1 {
 }
 .image-list-item:not(:last-child) {
   margin-right: 15px;
-} */
+}
 
 /*task-6*/
 #validation-input {
