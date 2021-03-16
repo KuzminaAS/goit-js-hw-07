@@ -17,18 +17,18 @@ const images = [
 ];
 
 const galleryList = document.querySelector('#gallery');
-// console.log(galleryList);
+console.log(galleryList);
 
-// const imagesList = images.map((image) => {
+const imagesList = images.map((image) => {
 
-//   const imgItem = document.createElement('li');
-//   imgItem.classList.add("image-list-item");
+  const imgItem = document.createElement('li');
+  imgItem.classList.add("image-list-item");
 
-//     galleryList.appendChild(imgItem);
+    galleryList.appendChild(imgItem);
 
-//     imgItem.insertAdjacentHTML('afterbegin', `<img class='image' src = ${image.url}, alt = ${image.alt}</img>`
-//     );
-// })
+    imgItem.insertAdjacentHTML('afterbegin', `<img class='image' src = ${image.url}, alt = ${image.alt}</img>`
+    );
+})
 
 
 

@@ -7,27 +7,27 @@
 Для добавления стилей, используй CSS-классы valid и invalid.
 */
 
-// const inputField = document.querySelector('#validation-input');
+const inputField = document.querySelector('#validation-input');
 
-// const datasetLength = +(inputField.dataset.length);
-// console.log(datasetLength);
+const datasetLength = +(inputField.dataset.length);
+console.log(datasetLength);
 
 
-// inputField.addEventListener('blur', onInputBlur);
-// function onInputBlur() {
-//     if (inputField.value.length === datasetLength) {
+inputField.addEventListener('blur', onInputBlur);
+function onInputBlur() {
+    if (inputField.value.length === datasetLength) {
        
-//         inputField.classList.add('valid');
-//     } else {
-//         inputField.classList.add('invalid');
-//     }
-//     // inputField.value.length === datasetLength ? inputField.classList.add('valid') : inputField.classList.add('invalid');
-// };
+        inputField.classList.add('valid');
+    } else {
+        inputField.classList.add('invalid');
+    }
+    // inputField.value.length === datasetLength ? inputField.classList.add('valid') : inputField.classList.add('invalid');
+};
 
-// inputField.addEventListener('input', onInputEvent);
-// function onInputEvent() { 
-// inputField.classList.remove('valid'),('invalid');
-// };
+inputField.addEventListener('input', onInputEvent);
+function onInputEvent() { 
+inputField.classList.remove('valid'),('invalid');
+};
 
 
 

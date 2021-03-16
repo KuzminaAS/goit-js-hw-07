@@ -17,9 +17,9 @@ const addListItem = ingredients.map((ingredient) => {
     newItem.textContent = ingredient;
     return newItem;
 });
-// console.log(addListItem);
+console.log(addListItem);
 
-// listIngredients.append(...addListItem);
+listIngredients.append(...addListItem);
 
 
 

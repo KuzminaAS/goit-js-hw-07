@@ -5,18 +5,18 @@
     <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
 */
 
-// const input = document.querySelector('#name-input');
+const input = document.querySelector('#name-input');
 
-// const nameOutput = document.querySelector('#name-output');
-// // console.log(nameOutput);
-// input.addEventListener('input', onInputChange);
+const nameOutput = document.querySelector('#name-output');
+// console.log(nameOutput);
+input.addEventListener('input', onInputChange);
 
-// function onInputChange(event) {
-//     // if (event.currentTarget.value) {
-//     //     nameOutput.textContent = event.currentTarget.value;
-//     // } else {
-//     //     nameOutput.textContent = 'незнакомец';
-//     // }
-//     event.currentTarget.value ? nameOutput.textContent = event.currentTarget.value : nameOutput.textContent = 'незнакомец';
-//  };
+function onInputChange(event) {
+    if (event.currentTarget.value) {
+        nameOutput.textContent = event.currentTarget.value;
+    } else {
+        nameOutput.textContent = 'незнакомец';
+    }
+    event.currentTarget.value ? nameOutput.textContent = event.currentTarget.value : nameOutput.textContent = 'незнакомец';
+ };
 

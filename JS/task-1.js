@@ -10,9 +10,9 @@
 Количество элементов: 4 */
 
 const categories = document.querySelectorAll("#categories .item");
-// console.log(categories);
+console.log(categories);
 
-// console.log(`В списке ${categories.length} категории.`);
+console.log(`В списке ${categories.length} категории.`);
 
 for (const elem of categories) {
     const textTitle = elem.querySelector('h2').textContent;
